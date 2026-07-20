@@ -1,0 +1,28 @@
+# ============================================================================
+# DATA — never commit. The AKTIVES dataset contains videos/images of children
+# and must be obtained separately from the original publication.
+# These are the exact folders the code reads from / writes to.
+# ============================================================================
+
+# Raw dataset (condition folders at the repository root)
+/Brachial Pleksus/
+/Disleksi/
+/Mental Retardasyon/
+/Normal Gelişim/
+
+# Regenerated data (frames, face/upper-body crops, feature CSVs, labels)
+Processed Data/
+
+# Experiment outputs
+Results/
+
+# FER model weights (download separately; see README)
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

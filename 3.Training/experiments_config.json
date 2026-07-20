@@ -1,0 +1,294 @@
+[
+    {
+        "name": "Face_DINOv2_SingleFrame",
+        "type": "single",
+        "input_csv": "Processed Data/DinoV2 Face Features Extracted/all_face_features_at_sec_10.csv",
+        "feature_type": "Face DINOv2",
+        "temporal_strategy": "Baseline 10 seconds",
+        "use_pca": false
+    },
+    {
+        "name": "Face_DINOv2_Averaged",
+        "type": "single",
+        "input_csv": "Processed Data/DinoV2 Face Features Extracted/all_face_features_per_interval.csv",
+        "feature_type": "Face DINOv2",
+        "temporal_strategy": "Average per interval",
+        "use_pca": false
+    },
+    {
+        "name": "Face_DINOv2_Triple",
+        "type": "single",
+        "input_csv": "Processed Data/DinoV2 Face Features Extracted/all_face_features_triple_intervals.csv",
+        "feature_type": "Face DINOv2",
+        "temporal_strategy": "Triple intervals",
+        "use_pca": false
+    },
+    {
+        "name": "Face_DINOv2_Overlapping",
+        "type": "single",
+        "input_csv": "Processed Data/DinoV2 Face Features Extracted/all_face_features_overlapping_intervals.csv",
+        "feature_type": "Face DINOv2",
+        "temporal_strategy": "Overlapping intervals",
+        "use_pca": false
+    },
+    {
+        "name": "UpperBody_DINOv2_SingleFrame",
+        "type": "single",
+        "input_csv": "Processed Data/DinoV2 UpperBody Features Extracted/all_upperbody_features_at_sec_10.csv",
+        "feature_type": "Upper Body DINOv2",
+        "temporal_strategy": "Baseline 10 seconds",
+        "use_pca": false
+    },
+    {
+        "name": "UpperBody_DINOv2_Averaged",
+        "type": "single",
+        "input_csv": "Processed Data/DinoV2 UpperBody Features Extracted/all_upperbody_features_per_interval.csv",
+        "feature_type": "Upper Body DINOv2",
+        "temporal_strategy": "Average per interval",
+        "use_pca": false
+    },
+    {
+        "name": "UpperBody_DINOv2_Triple",
+        "type": "single",
+        "input_csv": "Processed Data/DinoV2 UpperBody Features Extracted/all_upperbody_features_triple_intervals.csv",
+        "feature_type": "Upper Body DINOv2",
+        "temporal_strategy": "Triple intervals",
+        "use_pca": false
+    },
+    {
+        "name": "UpperBody_DINOv2_Overlapping",
+        "type": "single",
+        "input_csv": "Processed Data/DinoV2 UpperBody Features Extracted/all_upperbody_features_overlapping_intervals.csv",
+        "feature_type": "Upper Body DINOv2",
+        "temporal_strategy": "Overlapping intervals",
+        "use_pca": false
+    },
+    {
+        "name": "FullFrame_DINOv2_SingleFrame",
+        "type": "single",
+        "input_csv": "Processed Data/DinoV2 Features Extracted/all_features_at_sec_10.csv",
+        "feature_type": "DINOv2",
+        "temporal_strategy": "Baseline 10 seconds",
+        "use_pca": false
+    },
+    {
+        "name": "FullFrame_DINOv2_Averaged",
+        "type": "single",
+        "input_csv": "Processed Data/DinoV2 Features Extracted/all_features_per_interval.csv",
+        "feature_type": "DINOv2",
+        "temporal_strategy": "Average per interval",
+        "use_pca": false
+    },
+    {
+        "name": "FullFrame_DINOv2_Triple",
+        "type": "single",
+        "input_csv": "Processed Data/DinoV2 Features Extracted/all_features_triple_intervals.csv",
+        "feature_type": "DINOv2",
+        "temporal_strategy": "Triple intervals",
+        "use_pca": false
+    },
+    {
+        "name": "FullFrame_DINOv2_Overlapping",
+        "type": "single",
+        "input_csv": "Processed Data/DinoV2 Features Extracted/all_features_overlapping_intervals.csv",
+        "feature_type": "DINOv2",
+        "temporal_strategy": "Overlapping intervals",
+        "use_pca": false
+    },
+    {
+        "name": "DINOv2_PerSecond",
+        "type": "single",
+        "input_csv": "Processed Data/DinoV2 Features Extracted/all_features_per_second.csv",
+        "feature_type": "DINOv2",
+        "temporal_strategy": "Per Second",
+        "use_pca": false
+    },
+    {
+        "name": "Emotion_SingleFrame",
+        "type": "single",
+        "input_csv": "Processed Data/FER_Emotion_Features/all_emotions_at_sec_10.csv",
+        "feature_type": "Emotions",
+        "temporal_strategy": "Baseline 10 seconds",
+        "use_pca": false
+    },
+    {
+        "name": "Emotion_Averaged",
+        "type": "single",
+        "input_csv": "Processed Data/FER_Emotion_Features/all_emotions_per_interval.csv",
+        "feature_type": "Emotions",
+        "temporal_strategy": "Average per interval",
+        "use_pca": false
+    },
+    {
+        "name": "Emotion_Triple",
+        "type": "single",
+        "input_csv": "Processed Data/FER_Emotion_Features/all_emotions_triple_intervals.csv",
+        "feature_type": "Emotions",
+        "temporal_strategy": "Triple intervals",
+        "use_pca": false
+    },
+    {
+        "name": "Emotion_Overlapping",
+        "type": "single",
+        "input_csv": "Processed Data/FER_Emotion_Features/all_emotions_overlapping_intervals.csv",
+        "feature_type": "Emotions",
+        "temporal_strategy": "Overlapping intervals",
+        "use_pca": false
+    },
+    {
+        "name": "Landmark_SingleFrame",
+        "type": "single",
+        "input_csv": "Processed Data/Expression_Pose_Analysis/all_features_at_sec_10.csv",
+        "feature_type": "Expression_Pose",
+        "temporal_strategy": "Baseline 10 seconds",
+        "use_pca": false
+    },
+    {
+        "name": "Landmark_Averaged",
+        "type": "single",
+        "input_csv": "Processed Data/Expression_Pose_Analysis/all_features_per_interval.csv",
+        "feature_type": "Expression_Pose",
+        "temporal_strategy": "Average per interval",
+        "use_pca": false
+    },
+    {
+        "name": "Landmark_Triple",
+        "type": "single",
+        "input_csv": "Processed Data/Expression_Pose_Analysis/all_features_triple_intervals.csv",
+        "feature_type": "Expression_Pose",
+        "temporal_strategy": "Triple intervals",
+        "use_pca": false
+    },
+    {
+        "name": "Landmark_Overlapping",
+        "type": "single",
+        "input_csv": "Processed Data/Expression_Pose_Analysis/all_features_overlapping_intervals.csv",
+        "feature_type": "Expression_Pose",
+        "temporal_strategy": "Overlapping intervals",
+        "use_pca": false
+    },
+    {
+        "name": "DINOv2_Emotion_SingleFrame",
+        "type": "combined",
+        "dinov2_csv": "Processed Data/DinoV2 Features Extracted/all_features_at_sec_10.csv",
+        "second_csv": "Processed Data/FER_Emotion_Features/all_emotions_at_sec_10.csv",
+        "second_feature_type": "Emotions",
+        "temporal_strategy": "Baseline 10 seconds",
+        "use_pca": false
+    },
+    {
+        "name": "DINOv2_Emotion_Averaged",
+        "type": "combined",
+        "dinov2_csv": "Processed Data/DinoV2 Features Extracted/all_features_per_interval.csv",
+        "second_csv": "Processed Data/FER_Emotion_Features/all_emotions_per_interval.csv",
+        "second_feature_type": "Emotions",
+        "temporal_strategy": "Average per interval",
+        "use_pca": false
+    },
+    {
+        "name": "DINOv2_Emotion_Triple",
+        "type": "combined",
+        "dinov2_csv": "Processed Data/DinoV2 Features Extracted/all_features_triple_intervals.csv",
+        "second_csv": "Processed Data/FER_Emotion_Features/all_emotions_triple_intervals.csv",
+        "second_feature_type": "Emotions",
+        "temporal_strategy": "Triple intervals",
+        "use_pca": false
+    },
+    {
+        "name": "DINOv2_Emotion_Overlapping",
+        "type": "combined",
+        "dinov2_csv": "Processed Data/DinoV2 Features Extracted/all_features_overlapping_intervals.csv",
+        "second_csv": "Processed Data/FER_Emotion_Features/all_emotions_overlapping_intervals.csv",
+        "second_feature_type": "Emotions",
+        "temporal_strategy": "Overlapping intervals",
+        "use_pca": false
+    },
+    {
+        "name": "DINOv2_Landmarks_SingleFrame",
+        "type": "combined",
+        "dinov2_csv": "Processed Data/DinoV2 Features Extracted/all_features_at_sec_10.csv",
+        "second_csv": "Processed Data/Expression_Pose_Analysis/all_features_at_sec_10.csv",
+        "second_feature_type": "Expression_Pose",
+        "temporal_strategy": "Baseline 10 seconds",
+        "use_pca": false
+    },
+    {
+        "name": "DINOv2_Landmarks_Averaged",
+        "type": "combined",
+        "dinov2_csv": "Processed Data/DinoV2 Features Extracted/all_features_per_interval.csv",
+        "second_csv": "Processed Data/Expression_Pose_Analysis/all_features_per_interval.csv",
+        "second_feature_type": "Expression_Pose",
+        "temporal_strategy": "Average per interval",
+        "use_pca": false
+    },
+    {
+        "name": "DINOv2_Landmarks_Triple",
+        "type": "combined",
+        "dinov2_csv": "Processed Data/DinoV2 Features Extracted/all_features_triple_intervals.csv",
+        "second_csv": "Processed Data/Expression_Pose_Analysis/all_features_triple_intervals.csv",
+        "second_feature_type": "Expression_Pose",
+        "temporal_strategy": "Triple intervals",
+        "use_pca": false
+    },
+    {
+        "name": "DINOv2_Landmarks_Overlapping",
+        "type": "combined",
+        "dinov2_csv": "Processed Data/DinoV2 Features Extracted/all_features_overlapping_intervals.csv",
+        "second_csv": "Processed Data/Expression_Pose_Analysis/all_features_overlapping_intervals.csv",
+        "second_feature_type": "Expression_Pose",
+        "temporal_strategy": "Overlapping intervals",
+        "use_pca": false
+    },
+    {
+        "name": "DINOv2_PCA_Averaged",
+        "type": "single",
+        "input_csv": "Processed Data/DinoV2 Features Extracted/all_features_per_interval.csv",
+        "feature_type": "DINOv2",
+        "temporal_strategy": "Average per interval",
+        "use_pca": true
+    },
+    {
+        "name": "DINOv2_PCA_Overlapping",
+        "type": "single",
+        "input_csv": "Processed Data/DinoV2 Features Extracted/all_features_overlapping_intervals.csv",
+        "feature_type": "DINOv2",
+        "temporal_strategy": "Overlapping intervals",
+        "use_pca": true
+    },
+    {
+        "name": "DINOv2_Emotion_PCA_Averaged",
+        "type": "combined",
+        "dinov2_csv": "Processed Data/DinoV2 Features Extracted/all_features_per_interval.csv",
+        "second_csv": "Processed Data/FER_Emotion_Features/all_emotions_per_interval.csv",
+        "second_feature_type": "Emotions",
+        "temporal_strategy": "Average per interval",
+        "use_pca": true
+    },
+    {
+        "name": "DINOv2_Emotion_PCA_Overlapping",
+        "type": "combined",
+        "dinov2_csv": "Processed Data/DinoV2 Features Extracted/all_features_overlapping_intervals.csv",
+        "second_csv": "Processed Data/FER_Emotion_Features/all_emotions_overlapping_intervals.csv",
+        "second_feature_type": "Emotions",
+        "temporal_strategy": "Overlapping intervals",
+        "use_pca": true
+    },
+    {
+        "name": "DINOv2_Landmarks_PCA_Averaged",
+        "type": "combined",
+        "dinov2_csv": "Processed Data/DinoV2 Features Extracted/all_features_per_interval.csv",
+        "second_csv": "Processed Data/Expression_Pose_Analysis/all_features_per_interval.csv",
+        "second_feature_type": "Expression_Pose",
+        "temporal_strategy": "Average per interval",
+        "use_pca": true
+    },
+    {
+        "name": "DINOv2_Landmarks_PCA_Overlapping",
+        "type": "combined",
+        "dinov2_csv": "Processed Data/DinoV2 Features Extracted/all_features_overlapping_intervals.csv",
+        "second_csv": "Processed Data/Expression_Pose_Analysis/all_features_overlapping_intervals.csv",
+        "second_feature_type": "Expression_Pose",
+        "temporal_strategy": "Overlapping intervals",
+        "use_pca": true
+    }
+]
