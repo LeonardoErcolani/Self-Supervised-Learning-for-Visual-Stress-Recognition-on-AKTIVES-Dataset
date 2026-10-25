@@ -159,6 +159,10 @@ Edit `3.Training/experiments_config.json` to add, remove, or reorder experiments
 If you use this work, please cite:
 
 **This Repository:**
+
+**Preprint:**
+_Ercolani, Leonardo and Semerci, Yusuf Can and Erol Barkana, Duygun and Hortal, Enrique, A Self-Supervised Learning Approach for Visual Stress Recognition in Children with Special Needs. Available at SSRN: http://dx.doi.org/10.2139/ssrn.7606964_
+
 ```bibtex
 @article{SSLaktives2025,
   title={A Self-Supervised Learning approach for Stress Recognition in Children with Special Needs},
